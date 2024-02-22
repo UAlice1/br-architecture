@@ -1,0 +1,263 @@
+*{
+    font-family: 'verdana',sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 50px;
+    font-size: 15px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
+}
+body{
+    width: 100%;
+}
+.header a{
+    color: black;
+}
+
+.header a:hover{
+    background-color: rgb(184, 184, 184);
+            
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 850px;
+}
+li{
+    padding-right: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+.main{
+    border: 1px solid red;
+    background-image:url(architect.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:initial;
+    width: 100vw;
+    height: 500px;
+
+}
+.main p{
+    text-align: center;
+    padding-top: 360px;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+.main p span{
+    color: white;
+    background-color: black;
+}
+.pa{
+    width: 100%;
+    border: 1px solid red;
+}
+.pa img{
+    width: 300px;
+    height: 200px;
+    padding-left: 20px;
+    padding: 10px;
+    z-index: -1;
+    object-fit: cover;
+    display: flex;
+
+}
+    .b{
+    position: relative;
+}
+.o{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin-left: 30%;
+    margin:10px;
+}
+.brick{
+    position: relative;
+}
+.house{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin:10px;
+}
+.renovated{
+    position: relative;
+}
+.reno{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    padding: 8px 10px;
+    font-size: 20px;
+    margin:10px;
+}
+.barn{
+    position: relative;
+}
+.barn_h{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin: 10px;
+}
+.h{
+    position: relative;
+  
+  }
+.s{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin:10px;
+ }
+.barn{
+    position: relative;
+}
+.barn_house{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin: 10px;
+}
+.renovat{
+    position: relative;
+}
+.renovated_house{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin: 10px;
+}
+.brick_h{
+    position: relative;
+}
+.brick_house{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 20px;
+    margin: 10px;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    border: 1px solid red;
+    width: 100%;
+}
+.Contact{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.Contact img{
+    width: 300px;
+    height: 180px;
+    margin-left: 12%;
+    margin-right: 15px;
+}
+.third_img p{
+    font-size:15px ;
+    margin-left: 10px;
+}
+.four_img p{
+    font-size:15px ;
+    margin-left: 10px;
+}
+.fiv_four p{
+    font-size:10px ;
+    margin-left: 10px;
+}
+.six_img p{
+    font-size:15px ;
+    margin-right: 10px;
+}
+.footer{
+    width: 100%;
+    justify-content: flex-end;
+}
+.form input{
+    width: 95%;
+    height: 40px;
+    margin-left:2%;
+
+}
+.form{
+    margin-left:2%;
+}
+hr{
+border: 1px solid aliceblue;
+}
+ button a:hover{
+ background-color: rgb(134, 125, 125);
+ }
+ @media only screen and (max-width:1000px) {
+    .first{
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .second{
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about{
+       display: flex;
+       
+        
+    }
+ }
